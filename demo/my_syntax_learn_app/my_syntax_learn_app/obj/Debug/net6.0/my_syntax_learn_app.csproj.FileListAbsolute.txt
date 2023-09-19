@@ -1,0 +1,14 @@
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\bin\Debug\net6.0\my_syntax_learn_app.exe
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\bin\Debug\net6.0\my_syntax_learn_app.deps.json
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\bin\Debug\net6.0\my_syntax_learn_app.runtimeconfig.json
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\bin\Debug\net6.0\my_syntax_learn_app.dll
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\bin\Debug\net6.0\my_syntax_learn_app.pdb
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\my_syntax_learn_app.GeneratedMSBuildEditorConfig.editorconfig
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\my_syntax_learn_app.AssemblyInfoInputs.cache
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\my_syntax_learn_app.AssemblyInfo.cs
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\my_syntax_learn_app.csproj.CoreCompileInputs.cache
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\my_syntax_learn_app.dll
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\refint\my_syntax_learn_app.dll
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\my_syntax_learn_app.pdb
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\my_syntax_learn_app.genruntimeconfig.cache
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\my_syntax_learn_app\obj\Debug\net6.0\ref\my_syntax_learn_app.dll

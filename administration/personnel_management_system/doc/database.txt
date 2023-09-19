@@ -1,0 +1,10 @@
+CREATE DATABASE `sdsd` CHARACTER SET 'utf8mb4';
+
+
+CREATE TABLE `db_pwms`.`tb_userpope`  (
+  `autoID` int NOT NULL AUTO_INCREMENT COMMENT '自动编号',
+  `id` varchar(5) NULL COMMENT '操作员编号',
+  `popeName` varchar(50) NULL COMMENT '权限名称',
+  `pope` int NULL COMMENT '权限标识',
+  PRIMARY KEY (`autoID`)
+);

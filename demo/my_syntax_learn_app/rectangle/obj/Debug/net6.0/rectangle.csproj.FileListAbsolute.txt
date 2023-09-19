@@ -1,0 +1,14 @@
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\rectangle.GeneratedMSBuildEditorConfig.editorconfig
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\rectangle.AssemblyInfoInputs.cache
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\rectangle.AssemblyInfo.cs
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\rectangle.csproj.CoreCompileInputs.cache
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\bin\Debug\net6.0\rectangle.exe
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\bin\Debug\net6.0\rectangle.deps.json
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\bin\Debug\net6.0\rectangle.runtimeconfig.json
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\bin\Debug\net6.0\rectangle.dll
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\bin\Debug\net6.0\rectangle.pdb
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\rectangle.dll
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\refint\rectangle.dll
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\rectangle.pdb
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\rectangle.genruntimeconfig.cache
+E:\关于我的研究生生活\学会Csharp\demo\my_syntax_learn_app\rectangle\obj\Debug\net6.0\ref\rectangle.dll

@@ -1,0 +1,14 @@
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\bin\Debug\net6.0\string_learn.exe
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\bin\Debug\net6.0\string_learn.deps.json
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\bin\Debug\net6.0\string_learn.runtimeconfig.json
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\bin\Debug\net6.0\string_learn.dll
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\bin\Debug\net6.0\string_learn.pdb
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\string_learn.GeneratedMSBuildEditorConfig.editorconfig
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\string_learn.AssemblyInfoInputs.cache
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\string_learn.AssemblyInfo.cs
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\string_learn.csproj.CoreCompileInputs.cache
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\string_learn.dll
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\refint\string_learn.dll
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\string_learn.pdb
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\string_learn.genruntimeconfig.cache
+E:\关于我的研究生生活\学会Csharp\demo\string_learn\string_learn\obj\Debug\net6.0\ref\string_learn.dll

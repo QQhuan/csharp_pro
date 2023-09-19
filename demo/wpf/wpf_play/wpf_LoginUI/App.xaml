@@ -1,0 +1,19 @@
+﻿<Application x:Class="wpf_LoginUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:local="clr-namespace:wpf_LoginUI"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- 全局引入样式 -->
+                <ResourceDictionary Source="/wpf_LoginUI;component/Style/common_box.xaml"/>
+                <ResourceDictionary Source="/wpf_LoginUI;component/Style/common_btn.xaml"/>
+               <!-- handycontrol引入 -->
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
