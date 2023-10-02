@@ -94,9 +94,14 @@
             <Button Grid.Column="8" Content="已点: 5个菜"/>
         </Grid>
         <Grid/>
+    <TextBlock Background="Black" x:Name="btn" Foreground="White" Text="计算结果" Visibility="Hidden"/>
+<Button MouseEnter="Button_MouseEnter" Width="200" Height="50" Content="点我一下" Background="#0078d4" Click="Button_Click"/>
     </Grid>-->
     <Grid>
-        <TextBlock Background="Black" x:Name="btn" Foreground="White" Text="计算结果" Visibility="Hidden"/>
-        <Button MouseEnter="Button_MouseEnter" Width="200" Height="50" Content="点我一下" Background="#0078d4" Click="Button_Click"/>
+        <StackPanel>
+            <TextBox Name="myTarget" Width="200" Height="30"/>
+            <TextBlock Text="绑定的value："/>
+            <TextBlock Text="{Binding ElementName=myTarget, Path=Text}" Width="200"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_LoginUI.Views"
         xmlns:hc="https://handyorg.github.io/handycontrol" x:Class="wpf_LoginUI.Views.index"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
         Title="中国农业大学" Height="450" Width="800">
     <Window.Resources>
@@ -97,33 +98,37 @@
         </Border>
 
         <Grid Grid.Column="1" Background="#eeeeee">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="107*"/>
-                <ColumnDefinition Width="193*"/>
-            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto" MinHeight="200"/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
 
             <!-- 用户信息栏 -->
-            <Border Grid.Row="0" Background="#fff" Grid.ColumnSpan="2">
+            <Border Grid.Row="0" Background="#fff">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <!-- <Image Source="{Binding UserAvatar}" Width="30" Height="30"/>头像 -->
 
                     <!-- 个人信息 -->
                     <TextBlock Text="{Binding UserName}" Foreground="Black"/>
-                    <Image Width="25" Height="25" Source="wpf_LoginUI;component/Imgs/gravatar.png" Cursor="Hand"/>
+                    <Image Width="25" Height="25" Cursor="Hand">
+                        <Image.Source>
+                            <BitmapImage UriSource="/Imgs/gravatar.png"/>
+                        </Image.Source>
+                    </Image>
                     <!-- 退出按钮 -->
-                    <Button Style="{StaticResource LogoutButton}" BorderBrush="Transparent" Width="30" Height="30" BorderThickness="0" Background="Transparent">
-                        <Image Width="22" Height="22" Source="wpf_LoginUI;component/Imgs/logout.png"/>
+                    <Button Style="{StaticResource LogoutButton}" Click="Button_Click_1" BorderBrush="Transparent" Width="30" Height="30" BorderThickness="0" Background="Transparent">
+                        <Image Width="22" Height="22">
+                            <Image.Source>
+                                <BitmapImage UriSource="/Imgs/logout.png"/>
+                            </Image.Source>
+                        </Image>
                     </Button>
                 </StackPanel>
             </Border>
 
-            <Grid Grid.Row="1" Grid.ColumnSpan="2" Margin="0,10,0,0">
+            <Grid Grid.Row="1" Margin="0,10,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="1*"/>
@@ -134,7 +139,11 @@
                     <hc:Card Cursor="Hand" Background="#ff8243">
                         <StackPanel>
                             <Grid Height="50">
-                                <Image Width="32" Height="32"  Source="wpf_LoginUI;component/Imgs/people_number.png"></Image>
+                                <Image Width="32" Height="32">
+                                    <Image.Source>
+                                        <BitmapImage UriSource="/Imgs/people_number.png"/>
+                                    </Image.Source>
+                                </Image>
                             </Grid>
                             <TextBlock Text="1880人次" FontSize="18" Foreground="#fff" HorizontalAlignment="Center" FontWeight="Bold"></TextBlock>
                             <Border BorderBrush="#fff" Width="80" BorderThickness="0,1,0,0" Margin="0,10"/>
@@ -147,7 +156,11 @@
                     <hc:Card Cursor="Hand" Background="#ffcb00">
                         <StackPanel>
                             <Grid Height="50">
-                                <Image Width="32" Height="32"  Source="wpf_LoginUI;component/Imgs/book_number.png"></Image>
+                                <Image Width="32" Height="32">
+                                    <Image.Source>
+                                        <BitmapImage UriSource="/Imgs/book_number.png"/>
+                                    </Image.Source>
+                                </Image>
                             </Grid>
                             <TextBlock Text="280977册" FontSize="18" Foreground="#fff" HorizontalAlignment="Center" FontWeight="Bold"></TextBlock>
                             <Border BorderBrush="#fff" Width="80" BorderThickness="0,1,0,0" Margin="0,10"/>
@@ -160,7 +173,11 @@
                     <hc:Card Cursor="Hand" Background="#03cbcc">
                         <StackPanel>
                             <Grid Height="50">
-                                <Image Width="32" Height="32"  Source="wpf_LoginUI;component/Imgs/borrow_number.png"></Image>
+                                <Image Width="32" Height="32">
+                                    <Image.Source>
+                                        <BitmapImage UriSource="/Imgs/borrow_number.png"/>
+                                    </Image.Source>
+                                </Image>
                             </Grid>
                             <TextBlock Text="1556册" FontSize="18" Foreground="#fff" HorizontalAlignment="Center" FontWeight="Bold"></TextBlock>
                             <Border BorderBrush="#fff" Width="80" BorderThickness="0,1,0,0" Margin="0,10"/>
@@ -172,7 +189,11 @@
                     <hc:Card Cursor="Hand" Background="#631e8f">
                         <StackPanel>
                             <Grid Height="50">
-                                <Image Width="32" Height="32"  Source="wpf_LoginUI;component/Imgs/worker_number.png"></Image>
+                                <Image Width="32" Height="32">
+                                    <Image.Source>
+                                        <BitmapImage UriSource="/Imgs/worker_number.png"/>
+                                    </Image.Source>
+                                </Image>
                             </Grid>
                             <TextBlock Text="188人" FontSize="18" Foreground="#fff" HorizontalAlignment="Center" FontWeight="Bold"></TextBlock>
                             <Border BorderBrush="#fff" Width="80" BorderThickness="0,1,0,0" Margin="0,10"/>
@@ -181,39 +202,83 @@
                     </hc:Card>
                 </Border>
             </Grid>
-                
-                
+
+
 
 
             <!-- 折线图 -->
-            <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,0,305" Grid.RowSpan="2">
+            <Grid Grid.Row="2" Height="300" Margin="0, 10, 0, 0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
                 <!-- 折线图1 -->
-                <Border Grid.Column="0" >
+                <Border Grid.Column="0">
                     <!-- 折线图内容 -->
+                    <lvc:CartesianChart x:Name="chart" Background="#fff" SizeChanged="chart_SizeChanged"  Margin="10" FontWeight="Bold" FontSize="16">
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Title="星期" ShowLabels="True" Labels="周一,周二,周三,周四,周五,周六,周日" LabelsRotation="0">
+                                <lvc:Axis.Separator>
+                                    <lvc:Separator Step="1"/>
+                                </lvc:Axis.Separator>
+                            </lvc:Axis>
+                        </lvc:CartesianChart.AxisX>
+                        <lvc:CartesianChart.AxisY>
+                            <lvc:Axis Title="人数" MinValue="0" MaxValue="1200" ShowLabels="True" Labels="200,400,600,800,1000,1200" LabelsRotation="0">
+                                <lvc:Axis.Separator>
+                                    <lvc:Separator Step="200"/>
+                                </lvc:Axis.Separator>
+                            </lvc:Axis>
+                        </lvc:CartesianChart.AxisY>
+                        <lvc:CartesianChart.Series>
+                            <lvc:ColumnSeries DataLabels="True" Stroke="Red" Values="100,984,222,355,465,105,98">
+                                <lvc:ColumnSeries.Fill>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Color="OrangeRed" Offset="0"/>
+                                        <GradientStop Color="White" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </lvc:ColumnSeries.Fill>
+                            </lvc:ColumnSeries>
+                        </lvc:CartesianChart.Series>
+                    </lvc:CartesianChart>
                 </Border>
                 <!-- 折线图2 -->
                 <Border Grid.Column="1">
                     <!-- 折线图内容 -->
+                    <lvc:CartesianChart Background="#fff"  Margin="10">
+                        <lvc:CartesianChart.Series>
+                            <lvc:LineSeries
+                                Fill="LightGreen"
+                                Stroke="Green"
+                                Values="1,4,5,10,20,5,10" />
+                        </lvc:CartesianChart.Series>
+                    </lvc:CartesianChart>
+
                 </Border>
                 <!-- 折线图3 -->
                 <Border Grid.Column="2">
                     <!-- 折线图内容 -->
+                    <lvc:PieChart Name="pipChart" LegendLocation="Bottom" Hoverable="False"
+                          DataTooltip="{x:Null}">
+                        <lvc:PieChart.Series>
+                            <lvc:PieSeries Title="本科生" DataLabels="True" Values="1300"/>
+                            <lvc:PieSeries Title="研究生" DataLabels="True" Values="1799"/>
+                            <lvc:PieSeries Title="老师" DataLabels="True" Values="190"/>
+                            <lvc:PieSeries Title="其他" DataLabels="True" Values="490"/>
+                        </lvc:PieChart.Series>
+                    </lvc:PieChart>
                 </Border>
             </Grid>
 
             <!-- 表格 -->
-            <Grid Grid.Row="3" Grid.ColumnSpan="2">
+            <Grid Grid.Row="3">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="6*"/>
                     <ColumnDefinition Width="4*"/>
                 </Grid.ColumnDefinitions>
                 <!-- 表格1 -->
-                <Border Grid.Column="0" >
+                <Border Grid.Column="0">
                     <!-- 表格内容 -->
                     <DataGrid HeadersVisibility="All" RowHeaderWidth="60" AutoGenerateColumns="False" ItemsSource="{Binding GridSource.GridData}">
                         <DataGrid.RowHeaderTemplate>
@@ -239,9 +304,10 @@
                         </DataGrid.Columns>
                     </DataGrid>
                 </Border>
-                <!-- 表格2 -->
+                <!-- 时钟 -->
                 <Border Grid.Column="1" >
-                    <!-- 表格内容 -->
+                    <!-- 时钟 -->
+                    <hc:CalendarWithClock x:Name="realTime"/>
                 </Border>
             </Grid>
         </Grid>

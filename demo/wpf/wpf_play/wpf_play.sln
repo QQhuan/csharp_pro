@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_play", "wpf_play\wpf_pl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_LoginUI", "wpf_LoginUI\wpf_LoginUI.csproj", "{F97FCEA6-1BAB-4682-9A6C-EC8F16335A76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_album", "wpf_album\wpf_album.csproj", "{B5E47CE8-1956-433B-907D-79B53CC368AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Prism_Material", "Wpf_Prism_Material\Wpf_Prism_Material.csproj", "{F0687E0D-9255-4C38-BB94-2657A8AB7E62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,22 @@ Global
 		{F97FCEA6-1BAB-4682-9A6C-EC8F16335A76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F97FCEA6-1BAB-4682-9A6C-EC8F16335A76}.Release|x64.ActiveCfg = Release|x64
 		{F97FCEA6-1BAB-4682-9A6C-EC8F16335A76}.Release|x64.Build.0 = Release|x64
+		{B5E47CE8-1956-433B-907D-79B53CC368AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E47CE8-1956-433B-907D-79B53CC368AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E47CE8-1956-433B-907D-79B53CC368AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B5E47CE8-1956-433B-907D-79B53CC368AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{B5E47CE8-1956-433B-907D-79B53CC368AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E47CE8-1956-433B-907D-79B53CC368AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E47CE8-1956-433B-907D-79B53CC368AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{B5E47CE8-1956-433B-907D-79B53CC368AF}.Release|x64.Build.0 = Release|Any CPU
+		{F0687E0D-9255-4C38-BB94-2657A8AB7E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0687E0D-9255-4C38-BB94-2657A8AB7E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0687E0D-9255-4C38-BB94-2657A8AB7E62}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F0687E0D-9255-4C38-BB94-2657A8AB7E62}.Debug|x64.Build.0 = Debug|Any CPU
+		{F0687E0D-9255-4C38-BB94-2657A8AB7E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0687E0D-9255-4C38-BB94-2657A8AB7E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0687E0D-9255-4C38-BB94-2657A8AB7E62}.Release|x64.ActiveCfg = Release|Any CPU
+		{F0687E0D-9255-4C38-BB94-2657A8AB7E62}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

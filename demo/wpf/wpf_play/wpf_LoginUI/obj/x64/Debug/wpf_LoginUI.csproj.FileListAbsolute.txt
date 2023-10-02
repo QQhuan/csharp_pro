@@ -24,3 +24,9 @@ E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\obj\x6
 E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\obj\x64\Debug\Style\baseStyle.baml
 E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\obj\x64\Debug\Views\Pages\AddStudent.g.cs
 E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\obj\x64\Debug\Views\Pages\AddStudent.baml
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\bin\x64\Debug\LiveCharts.dll
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\bin\x64\Debug\LiveCharts.Wpf.dll
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\bin\x64\Debug\LiveCharts.pdb
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\bin\x64\Debug\LiveCharts.xml
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\bin\x64\Debug\LiveCharts.Wpf.pdb
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\wpf_LoginUI\bin\x64\Debug\LiveCharts.Wpf.xml

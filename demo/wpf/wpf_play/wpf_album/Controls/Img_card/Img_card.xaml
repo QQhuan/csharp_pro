@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="wpf_album.Controls.Img_card.Img_card"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:wpf_album.Controls.Img_card"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ToolBarTray>
+        <ToolBar ClipToBounds="False" Style="{StaticResource MaterialDesignToolBar}">
+            <Button Click="TwitterButton_OnClick"
+                  Content="{materialDesign:PackIcon Kind=Twitter}"
+                  ToolTip="Follow me on Twitter" />
+
+            <Button Content="{materialDesign:PackIcon Kind=ContentSave}" ToolTip="Save" />
+
+            <Separator />
+
+            <Button Command="Cut"
+                  Content="{materialDesign:PackIcon Kind=ContentCut}"
+                  ToolBar.OverflowMode="AsNeeded"
+                  ToolTip="Cut" />
+
+            <Button Command="Copy"
+                  Content="{materialDesign:PackIcon Kind=ContentCopy}"
+                  ToolBar.OverflowMode="AsNeeded"
+                  ToolTip="Copy that stuff" />
+
+            <Separator />
+
+            <Button Command="Paste"
+                  Content="{materialDesign:PackIcon Kind=ContentPaste}"
+                  ToolBar.OverflowMode="AsNeeded"
+                  ToolTip="Paste some stuff" />
+
+            <Separator />
+
+            <ListBox>
+                <ListBoxItem ToolTip="This is a lonley toggle with TextBlock instead of icon">
+                    <TextBlock Text="W" />
+                </ListBoxItem>
+            </ListBox>
+
+
+            <Separator />
+
+            <Label VerticalAlignment="Center" Content="Font size:" />
+
+            <ComboBox>
+                <ComboBoxItem Content="10" />
+                <ComboBoxItem Content="12" IsSelected="True" />
+                <ComboBoxItem Content="14" />
+                <ComboBoxItem Content="16" />
+            </ComboBox>
+
+            <CheckBox Content="Check" />
+
+            <Button Content="{materialDesign:PackIcon Kind=Hotel}"
+                  ToolBar.OverflowMode="Always"
+                  ToolTip="Take a nap" />
+
+            <RadioButton Content="Radio" GroupName="XXX" />
+
+            <RadioButton Content="Ga Ga" GroupName="XXX" />
+
+            <Separator />
+
+            <RadioButton Content="{materialDesign:PackIcon Kind=Radio}"
+                       GroupName="YYY"
+                       Style="{StaticResource MaterialDesignToolRadioButton}" />
+
+            <RadioButton Content="{materialDesign:PackIcon Kind=EmoticonPoop}"
+                       GroupName="YYY"
+                       Style="{StaticResource MaterialDesignToolRadioButton}" />
+
+            <Separator />
+
+            <ToggleButton />
+        </ToolBar>
+    </ToolBarTray>
+</UserControl>
