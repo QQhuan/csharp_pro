@@ -48,3 +48,7 @@ E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material
 E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material\obj\Debug\Views\ListBindingWindow.baml
 E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material\obj\Debug\Views\ConvertWindow.g.cs
 E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material\obj\Debug\Views\ConvertWindow.baml
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material\obj\Debug\Views\ChildWindow.g.cs
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material\obj\Debug\Views\FatherWindow.g.cs
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material\obj\Debug\Views\ChildWindow.baml
+E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material\obj\Debug\Views\FatherWindow.baml

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Wpf_Prism_Material.Controls;
+using Wpf_Prism_Material.Views;
 
 namespace wpf_album.Views
 {
@@ -85,8 +86,14 @@ namespace wpf_album.Views
                 Picture pic = new Picture();
                 pic.ImgUri = imgUrls[i];
                 pic.Msg = quotes[i];
-                myGrid.Children.Add(pic);
+                // myGrid.Children.Add(pic);
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            FatherWindow fw = new FatherWindow();
+            fw.Show();
         }
     }
 }

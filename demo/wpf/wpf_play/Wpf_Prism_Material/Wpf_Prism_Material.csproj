@@ -93,11 +93,17 @@
       <DependentUpon>Picture_control.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Views\ChildWindow.xaml.cs">
+      <DependentUpon>ChildWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ConvertWindow.xaml.cs">
       <DependentUpon>ConvertWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\DataBinding.xaml.cs">
       <DependentUpon>DataBinding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FatherWindow.xaml.cs">
+      <DependentUpon>FatherWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ListBindingWindow.xaml.cs">
       <DependentUpon>ListBindingWindow.xaml</DependentUpon>
@@ -125,11 +131,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\ChildWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ConvertWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\DataBinding.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FatherWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

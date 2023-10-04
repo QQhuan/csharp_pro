@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\关于我的研究生生活\学会Csharp\demo\wpf\wpf_play\Wpf_Prism_Material\App.xaml
-7-1576237038
+9-1636533750
 
-141508905446
+16-686739086
 26-1874447515
-Controls\Picture.xaml;Controls\Picture_control.xaml;MainWindow.xaml;Views\ConvertWindow.xaml;Views\DataBinding.xaml;Views\ListBindingWindow.xaml;Views\MainView.xaml;
+Controls\Picture.xaml;Controls\Picture_control.xaml;MainWindow.xaml;Views\ChildWindow.xaml;Views\ConvertWindow.xaml;Views\DataBinding.xaml;Views\FatherWindow.xaml;Views\ListBindingWindow.xaml;Views\MainView.xaml;
 
 True
 
